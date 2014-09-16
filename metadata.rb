@@ -24,3 +24,5 @@ maintainer_email 'me@example.com'
 license 'Apache 2.0'
 description ''
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
+
+depends 'apt'
