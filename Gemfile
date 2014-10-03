@@ -16,6 +16,7 @@ end
 gem 'librarian-chef'
 gem 'foodcritic', '>= 3.0.3'
 gem 'chefspec', '~> 4.0'
+gem 'serverspec'
 gem 'chef', '~> 11.12'
 gem 'finstyle'
 gem 'guard-rubocop'

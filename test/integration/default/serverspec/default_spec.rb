@@ -19,3 +19,10 @@
 require 'serverspec'
 include Serverspec::Helper::Exec
 include Serverspec::Helper::DetectOS
+
+describe "ssh" do
+  it "is listening on port 22" do
+    expect(port(22)).to be_listening
+  end
+
+end
